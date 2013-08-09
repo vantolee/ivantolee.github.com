@@ -1,28 +1,42 @@
 ---
-layout: page
-title: Hello World!
-tagline: Supporting tagline
+layout: default
+title: Vanto's Blog
+
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+<div class="page-header">
+  <h1>Hard word had make it easy.</h1>
+</div>
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
-## Update Author Attributes
+<div class="row">
+  <div class="span7">
+    <ul class="posts">
+      
+      <li>
+        <div class="title">
+          <a href="/first-arrived-in-hangzhou.html">初到杭城</a>
+          <time datetime="2013-03-23" class="pull-right">2013-03-23</time>
+        </div>
+        <div class="featurette">
+          <div class="description pull-right">it's my loveit's my loveit's my loveit's my loveit's my loveit's my loveit's my loveit's my loveit's my loveit's my loveit's my loveit's my love</div>
+          
+          <img alt="初到杭城" src="http://pic.yupoo.com/fooleap_v/CJtzVqJn/small.jpg" class="thumbnail featurette-image pull-left">
+          
+          <a href="/first-arrived-in-hangzhou.html" class="more btn btn-mini pull-right">阅读更多</a>
+        </div>
+        <hr class="featurette-divider">
+      </li>
+      
+    </ul>
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+  </div>
 
-The theme should reference these variables whenever needed.
-    
+
+</div>    
+
+
 ## Sample Posts
 
 This blog contains sample posts which help stage pages and blog data.
@@ -38,9 +52,6 @@ Here's a sample "posts list".
   {% endfor %}
 </ul>
 
-## To-Do
 
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
 
 
